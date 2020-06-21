@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvertApi", "WebApplication1\AdvertApi.csproj", "{D260E8DE-6B5F-44BE-93A5-7B0EA26AFC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{E6769427-29AF-4E38-8A54-00901FBEC78B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D260E8DE-6B5F-44BE-93A5-7B0EA26AFC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D260E8DE-6B5F-44BE-93A5-7B0EA26AFC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D260E8DE-6B5F-44BE-93A5-7B0EA26AFC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D260E8DE-6B5F-44BE-93A5-7B0EA26AFC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6769427-29AF-4E38-8A54-00901FBEC78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6769427-29AF-4E38-8A54-00901FBEC78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6769427-29AF-4E38-8A54-00901FBEC78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6769427-29AF-4E38-8A54-00901FBEC78B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68BB79A-E2CD-494D-A058-343B967CE9C2}
+	EndGlobalSection
+EndGlobal

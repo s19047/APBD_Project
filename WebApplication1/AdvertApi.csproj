@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200617071414_InitializeDataBase.cs" />
+    <Compile Remove="Migrations\20200617071414_InitializeDataBase.Designer.cs" />
+    <Compile Remove="Migrations\20200617073308_ChangedDeleteCascadeForCampaign.cs" />
+    <Compile Remove="Migrations\20200617073308_ChangedDeleteCascadeForCampaign.Designer.cs" />
+    <Compile Remove="Migrations\20200617073556_ChangedDeleteCascadeForCampaign.cs" />
+    <Compile Remove="Migrations\20200617073556_ChangedDeleteCascadeForCampaign.Designer.cs" />
+    <Compile Remove="Migrations\20200617074629_ChangedDeleteCascadeForCampaign.cs" />
+    <Compile Remove="Migrations\20200617074629_ChangedDeleteCascadeForCampaign.Designer.cs" />
+    <Compile Remove="Migrations\20200617075729_ChangedDeleteCascadeToRestrict.cs" />
+    <Compile Remove="Migrations\20200617075729_ChangedDeleteCascadeToRestrict.Designer.cs" />
+    <Compile Remove="Migrations\20200617075918_ChangedDeleteCascadeToNoAction.cs" />
+    <Compile Remove="Migrations\20200617075918_ChangedDeleteCascadeToNoAction.Designer.cs" />
+    <Compile Remove="Migrations\20200617080431_ChangedDeleteCascadeToSetNull.cs" />
+    <Compile Remove="Migrations\20200617080431_ChangedDeleteCascadeToSetNull.Designer.cs" />
+    <Compile Remove="Migrations\20200617080807_InitializingDataBase.cs" />
+    <Compile Remove="Migrations\20200617080807_InitializingDataBase.Designer.cs" />
+    <Compile Remove="Migrations\20200621163656_ChangedDoubleToDecimal.cs" />
+    <Compile Remove="Migrations\20200621163656_ChangedDoubleToDecimal.Designer.cs" />
+    <Compile Remove="Migrations\20200621164355_SeededDatabase.cs" />
+    <Compile Remove="Migrations\20200621164355_SeededDatabase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
+
+</Project>
